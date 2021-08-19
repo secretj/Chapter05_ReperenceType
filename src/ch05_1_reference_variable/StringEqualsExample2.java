@@ -15,7 +15,7 @@ public class StringEqualsExample2 {
 		String str3 = new String("박진형");
 		String str4 = new String("박진형");
 		
-		if(str3 == str4) {
+		if(str3 == str4) {														//주소값 비교
 			System.out.println("str3과 str4는 참조가 같음");
 		}else {
 			System.out.println("str3과 str4는 참조가 다름");

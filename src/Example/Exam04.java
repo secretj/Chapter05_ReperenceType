@@ -8,7 +8,7 @@ public class Exam04 {
 		
 		for(int i= 0; i<array.length; i++) {
 			
-			if(i>=1&&array[i]>array[i-1]) {
+			if(array[i]>max) {
 				max= array[i];
 			}
 		}
@@ -17,3 +17,4 @@ public class Exam04 {
 	}
 
 }
+//open cv
